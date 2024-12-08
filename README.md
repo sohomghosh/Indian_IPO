@@ -2,15 +2,28 @@
 
 Datasets: The datasets can be btained from https://huggingface.co/datasets/sohomghosh/Indian_IPO_datasets/
 
-Code to extrcat DeBERTa based porarabilities https://github.com/sohomghosh/Indian_IPO/blob/main/success-classification-deberta-probabilities.ipynb
+Note: The code structure for Opening, High, Closing prices remaings the same. Only the name of dependant (Y) variable changes. We are presneting codes for Opening prices. You can use it for High and Closing prices too.
 
-Codes for training classification models for predicting the direction of price movements:
-https://github.com/sohomghosh/Indian_IPO/blob/main/MainBoard_Model_with_Deberta_Prediction_Probability_Success_Direction_Classification.ipynb
-https://github.com/sohomghosh/Indian_IPO/blob/main/SME_Model_with_Deberta_Prediction_Probability_Success_Direction_Classification.ipynb
+For Training models with numeric & categorical features only
+-
+Refer to the folder: https://github.com/sohomghosh/Indian_IPO/tree/main/numeric_categorical_only_models
+File names having _Underpricing in their names are used for training underpricing predicting models. Other files are used for predicting direction of prices.
 
-Codes for training regression models for predicting underpircing:
-https://github.com/sohomghosh/Indian_IPO/blob/main/MainBoard_Model_with_DeBERTa_Prediction_Probability_Success_Underpricing_Regression.ipynb
-https://github.com/sohomghosh/Indian_IPO/blob/main/SME_Model_with_DeBERTa_Prediction_Probability_Success_Underpricing_Regression.ipynb
+For Training models with probabilities from Machine Learning models trained using Nomic Embeddings
+-
+Refer to the folder: https://github.com/sohomghosh/Indian_IPO/tree/main/nomic_based_models
+For extracting nomic embeddings: https://github.com/sohomghosh/Indian_IPO/blob/main/nomic_based_models/Nomic_embeddings.ipynb
+For training Machine Learning models with Nomic Embeddings: https://github.com/sohomghosh/Indian_IPO/blob/main/nomic_based_models/model_make_text_features_nomic_embeddings.ipynb
+Out of the remaining files, the ones having _Underpricing in their names are used for training underpricing predicting models. Other files are used for predicting direction of prices.
+
+For Training DeBERTa models
+-
+Refer to the folder: https://github.com/sohomghosh/Indian_IPO/tree/main/DeBERTa_based_models
+For extracting deberta based probabilities: https://github.com/sohomghosh/Indian_IPO/blob/main/DeBERTa_based_models/success-high-deberta-sme.ipynb
+Out of the remaining files, the ones with names ending with _underpricing are used for training underpricing predicting models. Other files are used for predicting direction of prices.
+
+
+
 
 ```bibtex
 @misc{indiaipo-ghosh-2024,
