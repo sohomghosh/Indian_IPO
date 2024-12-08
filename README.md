@@ -14,7 +14,7 @@ https://github.com/sohomghosh/Indian_IPO/blob/main/SME_Model_with_DeBERTa_Predic
 
 ```bibtex
 @misc{indiaipo-ghosh-2024,
-  title={Fusing Multi-modal Information to Predict Success of Indian IPOs},
+  title={Experimenting with Multi-modal Information to Predict Success of Indian IPOs},
   author={Ghosh, Sohom and Majhi, Arnab and Harsha Vardhan, N and Naskar and Sudip Kumar},
   year={2024}
 }
