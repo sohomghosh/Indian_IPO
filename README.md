@@ -26,9 +26,13 @@ Out of the remaining files, the ones with names ending with _underpricing are us
 
 
 ```bibtex
-@misc{indiaipo-ghosh-2024,
-  title={Experimenting with Multi-modal Information to Predict Success of Indian IPOs},
-  author={Ghosh, Sohom and Majhi, Arnab and Harsha Vardhan, N and Naskar and Sudip Kumar},
-  year={2024}
+@misc{ghosh2024experimentingmultimodalinformationpredict,
+      title={Experimenting with Multi-modal Information to Predict Success of Indian IPOs}, 
+      author={Sohom Ghosh and Arnab Maji and N Harsha Vardhan and Sudip Kumar Naskar},
+      year={2024},
+      eprint={2412.16174},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.16174}, 
 }
 ```
